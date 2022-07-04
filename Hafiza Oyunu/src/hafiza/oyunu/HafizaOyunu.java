@@ -80,6 +80,7 @@ public class HafizaOyunu {
         kartlar[3][1] = new Kart('G');
         kartlar[3][2] = new Kart('B');
         kartlar[3][3] = new Kart('C');
+        break;
         case 1:
         kartlar[0][0] = new Kart('D');
         kartlar[0][1] = new Kart('B');
@@ -97,6 +98,7 @@ public class HafizaOyunu {
         kartlar[3][1] = new Kart('E');
         kartlar[3][2] = new Kart('C');
         kartlar[3][3] = new Kart('F');
+        break;
         case 2:
         kartlar[0][0] = new Kart('G');
         kartlar[0][1] = new Kart('C');
@@ -114,6 +116,7 @@ public class HafizaOyunu {
         kartlar[3][1] = new Kart('B');
         kartlar[3][2] = new Kart('H');
         kartlar[3][3] = new Kart('F');
+        break;
         case 3:
         kartlar[0][0] = new Kart('B');
         kartlar[0][1] = new Kart('D');
@@ -131,6 +134,7 @@ public class HafizaOyunu {
         kartlar[3][1] = new Kart('G');
         kartlar[3][2] = new Kart('H');
         kartlar[3][3] = new Kart('A');
+        break;
         case 4:
         kartlar[0][0] = new Kart('C');
         kartlar[0][1] = new Kart('H');
@@ -148,6 +152,7 @@ public class HafizaOyunu {
         kartlar[3][1] = new Kart('E');
         kartlar[3][2] = new Kart('G');
         kartlar[3][3] = new Kart('D');
+        break;
         case 5:
         kartlar[0][0] = new Kart('E');
         kartlar[0][1] = new Kart('D');
@@ -165,6 +170,7 @@ public class HafizaOyunu {
         kartlar[3][1] = new Kart('C');
         kartlar[3][2] = new Kart('G');
         kartlar[3][3] = new Kart('B');
+        break;
         }
         while(oyunBittiMi() == false){
         tahminEt();
